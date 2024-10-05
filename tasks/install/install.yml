@@ -1,0 +1,11 @@
+---
+
+- name: Copy lighthouse from git
+  become: true
+  become_user: root
+  ansible.builtin.git:
+    repo: "{{ lighthouse_vcs }}"
+    version: master
+    dest: "/opt/lighthouse"
+    force: true
+  notify: Restart nginx service
