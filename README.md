@@ -3,18 +3,10 @@ ansible-lighthouse
 
 This role install Lighthouse
 
-Role Variables
---------------
-You can change Lighthouse version
-
-```yaml
-lighthouse_version: "0.41.1"
-```
-
 Configure
 --------
 
-Refer the file templates/lighthouse.conf.j2 to change the default values for Vector.
+Refer the file templates/lighthouse.conf.j2 to change the default values for Vector
 
 Example Playbook
 ----------------
