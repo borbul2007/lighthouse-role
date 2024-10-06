@@ -7,7 +7,7 @@ license: MIT
 min_ansible_version: 2.10
 
 platforms:
-  - name: Rocky Linux
-    versions:
-    - 8
-    - 9
+- name: Rocky Linux
+  versions:
+  - 8
+  - 9
