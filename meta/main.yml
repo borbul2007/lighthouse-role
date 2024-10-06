@@ -4,13 +4,11 @@ dependencies: []
 galaxy_info:
   author: Boris
   description: This role install Lighthouse
-  company: Netology
-
-#license: MIT
-min_ansible_version: 2.10
-
-platforms:
-  - name: AlmaLinux
-    versions:
-      - 8
-      - 9
+  company: "Netology"
+  license: "MIT"
+  min_ansible_version: 2.10
+  platforms:
+    - name: AlmaLinux
+      versions:
+        - 8
+        - 9
