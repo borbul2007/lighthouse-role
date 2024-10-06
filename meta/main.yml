@@ -1,3 +1,6 @@
+---
+dependencies: []
+
 galaxy_info:
   author: Boris
   description: This role install Lighthouse
