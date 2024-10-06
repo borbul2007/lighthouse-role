@@ -5,23 +5,16 @@ This role install Lighthouse
 
 Role Variables
 --------------
+You can change Lighthouse version
 
-Requirements
-------------
-
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+```yaml
+lighthouse_version: "0.41.1"
+```
 
 Configure
 --------
 
-Refer the file templates/lighthouse.toml.j2 to change the default values for Lighthouse.
-
-Dependencies
-------------
-
-Role 
-  - git
-  - nginx
+Refer the file templates/lighthouse.conf.j2 to change the default values for Vector.
 
 Example Playbook
 ----------------
